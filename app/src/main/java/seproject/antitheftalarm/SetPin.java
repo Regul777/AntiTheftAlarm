@@ -1,33 +1,18 @@
 package seproject.antitheftalarm;
 
-import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
-import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.transition.Slide;
-import android.transition.TransitionInflater;
-import android.util.Log;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class SetPin extends AppCompatActivity  {
+public class SetPin extends AppCompatActivity {
     EditText etSetPin,etConfirmPin,etEmail;
     public static final String MyPREFERENCES = "MyPrefs" ;
     public static final String Email = "emailKey";

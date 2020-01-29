@@ -3,7 +3,6 @@ package seproject.antitheftalarm;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.transition.Slide;
@@ -11,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import static seproject.antitheftalarm.SetPin.MyPREFERENCES;
 import static seproject.antitheftalarm.SetPin.Password;
